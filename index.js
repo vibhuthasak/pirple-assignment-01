@@ -47,7 +47,7 @@ function getDataFromRequest(req) {
 
 const server = http.createServer(function(req, res) {  
 
-  // var {trimmedUrl, queryString, method, headers} = getDataFromRequest(req);
+  // Get data object
   var dataObject = getDataFromRequest(req);
 
   var buffer = '';
